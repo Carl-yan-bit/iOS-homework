@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D5EAA6F2518D99B00DFB519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5EAA6E2518D99B00DFB519 /* AppDelegate.swift */; };
+		3D5EAA712518D99B00DFB519 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5EAA702518D99B00DFB519 /* SceneDelegate.swift */; };
+		3D5EAA732518D99B00DFB519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5EAA722518D99B00DFB519 /* ViewController.swift */; };
+		3D5EAA762518D99B00DFB519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5EAA742518D99B00DFB519 /* Main.storyboard */; };
+		3D5EAA782518D99E00DFB519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5EAA772518D99E00DFB519 /* Assets.xcassets */; };
+		3D5EAA7B2518D99E00DFB519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5EAA792518D99E00DFB519 /* LaunchScreen.storyboard */; };
+		3D5EAA832518DD4900DFB519 /* 亮灯.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5EAA822518DD4800DFB519 /* 亮灯.png */; };
+		3D5EAA852518DD4E00DFB519 /* 灯.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5EAA842518DD4E00DFB519 /* 灯.png */; };
+		3D5EAA872518E82100DFB519 /* 超级亮灯.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5EAA862518E82000DFB519 /* 超级亮灯.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D5EAA6B2518D99B00DFB519 /* SimpleLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5EAA6E2518D99B00DFB519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D5EAA702518D99B00DFB519 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D5EAA722518D99B00DFB519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D5EAA752518D99B00DFB519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D5EAA772518D99E00DFB519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D5EAA7A2518D99E00DFB519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D5EAA7C2518D99E00DFB519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5EAA822518DD4800DFB519 /* 亮灯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "亮灯.png"; path = "../../亮灯.png"; sourceTree = "<group>"; };
+		3D5EAA842518DD4E00DFB519 /* 灯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "灯.png"; path = "../../灯.png"; sourceTree = "<group>"; };
+		3D5EAA862518E82000DFB519 /* 超级亮灯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "超级亮灯.png"; path = "../../超级亮灯.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D5EAA682518D99B00DFB519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D5EAA622518D99B00DFB519 = {
+			isa = PBXGroup;
+			children = (
+				3D5EAA6D2518D99B00DFB519 /* SimpleLight */,
+				3D5EAA6C2518D99B00DFB519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D5EAA6C2518D99B00DFB519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5EAA6B2518D99B00DFB519 /* SimpleLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D5EAA6D2518D99B00DFB519 /* SimpleLight */ = {
+			isa = PBXGroup;
+			children = (
+				3D5EAA6E2518D99B00DFB519 /* AppDelegate.swift */,
+				3D5EAA702518D99B00DFB519 /* SceneDelegate.swift */,
+				3D5EAA722518D99B00DFB519 /* ViewController.swift */,
+				3D5EAA742518D99B00DFB519 /* Main.storyboard */,
+				3D5EAA772518D99E00DFB519 /* Assets.xcassets */,
+				3D5EAA862518E82000DFB519 /* 超级亮灯.png */,
+				3D5EAA842518DD4E00DFB519 /* 灯.png */,
+				3D5EAA822518DD4800DFB519 /* 亮灯.png */,
+				3D5EAA792518D99E00DFB519 /* LaunchScreen.storyboard */,
+				3D5EAA7C2518D99E00DFB519 /* Info.plist */,
+			);
+			path = SimpleLight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D5EAA6A2518D99B00DFB519 /* SimpleLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5EAA7F2518D99E00DFB519 /* Build configuration list for PBXNativeTarget "SimpleLight" */;
+			buildPhases = (
+				3D5EAA672518D99B00DFB519 /* Sources */,
+				3D5EAA682518D99B00DFB519 /* Frameworks */,
+				3D5EAA692518D99B00DFB519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLight;
+			productName = SimpleLight;
+			productReference = 3D5EAA6B2518D99B00DFB519 /* SimpleLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D5EAA632518D99B00DFB519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = NJU;
+				TargetAttributes = {
+					3D5EAA6A2518D99B00DFB519 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 3D5EAA662518D99B00DFB519 /* Build configuration list for PBXProject "SimpleLight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D5EAA622518D99B00DFB519;
+			productRefGroup = 3D5EAA6C2518D99B00DFB519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D5EAA6A2518D99B00DFB519 /* SimpleLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D5EAA692518D99B00DFB519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5EAA7B2518D99E00DFB519 /* LaunchScreen.storyboard in Resources */,
+				3D5EAA782518D99E00DFB519 /* Assets.xcassets in Resources */,
+				3D5EAA832518DD4900DFB519 /* 亮灯.png in Resources */,
+				3D5EAA852518DD4E00DFB519 /* 灯.png in Resources */,
+				3D5EAA872518E82100DFB519 /* 超级亮灯.png in Resources */,
+				3D5EAA762518D99B00DFB519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D5EAA672518D99B00DFB519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5EAA732518D99B00DFB519 /* ViewController.swift in Sources */,
+				3D5EAA6F2518D99B00DFB519 /* AppDelegate.swift in Sources */,
+				3D5EAA712518D99B00DFB519 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D5EAA742518D99B00DFB519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5EAA752518D99B00DFB519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D5EAA792518D99E00DFB519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5EAA7A2518D99E00DFB519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D5EAA7D2518D99E00DFB519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D5EAA7E2518D99E00DFB519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D5EAA802518D99E00DFB519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nju.SimpleLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D5EAA812518D99E00DFB519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nju.SimpleLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D5EAA662518D99B00DFB519 /* Build configuration list for PBXProject "SimpleLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5EAA7D2518D99E00DFB519 /* Debug */,
+				3D5EAA7E2518D99E00DFB519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5EAA7F2518D99E00DFB519 /* Build configuration list for PBXNativeTarget "SimpleLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5EAA802518D99E00DFB519 /* Debug */,
+				3D5EAA812518D99E00DFB519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D5EAA632518D99B00DFB519 /* Project object */;
+}
